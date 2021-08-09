@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "315829389796",
+    "project_id": "financ-fa506",
+    "storage_bucket": "financ-fa506.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315829389796:android:8978fe73bf13bbf4ca1ff1",
+        "android_client_info": {
+          "package_name": "com.rodrigo.financ"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315829389796-kaeqpnnv1s8i4psr8106s0sma2ahi0gu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rodrigo.financ",
+            "certificate_hash": "a44dd90add328a21be5b91353cf17fcec69616b5"
+          }
+        },
+        {
+          "client_id": "315829389796-kpkcjutdrghn6l8s9amdciffms9bc7ip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBSElZciof_XafhzES9Ci8onRCtwQS05s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315829389796-kpkcjutdrghn6l8s9amdciffms9bc7ip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
