@@ -3,7 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/Desktop/Estudo/Apps/Financ/app/src/main/res/drawable/ic_add.xml" value="0.23425925925925925" />
+        <entry key="..\:/Users/User/Desktop/Estudo/Apps/Financ/app/src/main/res/drawable/ic_remove.xml" value="0.23425925925925925" />
+        <entry key="..\:/Users/User/Desktop/Estudo/Apps/Financ/app/src/main/res/drawable/rectangle.xml" value="0.23425925925925925" />
+        <entry key="..\:/Users/User/Desktop/Estudo/Apps/Financ/app/src/main/res/drawable/rectangle_2.xml" value="0.23425925925925925" />
+        <entry key="..\:/Users/User/Desktop/Estudo/Apps/Financ/app/src/main/res/drawable/rectangle_3.xml" value="0.23425925925925925" />
+        <entry key="..\:/Users/User/Desktop/Estudo/Apps/Financ/app/src/main/res/layout/fragment_balance.xml" value="0.264" />
         <entry key="..\:/Users/User/Desktop/Financ/app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/User/Desktop/Financ/app/src/main/res/layout/fragment_add.xml" value="0.13020833333333334" />
         <entry key="..\:/Users/User/Desktop/Financ/app/src/main/res/layout/fragment_balance.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/User/Desktop/Financ/app/src/main/res/layout/fragment_login.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/User/Desktop/Financ/app/src/main/res/layout/fragment_update.xml" value="0.25416666666666665" />

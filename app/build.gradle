@@ -1,6 +1,9 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-android-extensions'
+    id 'kotlin-kapt'
+    id("androidx.navigation.safeargs")
 }
 
 android {
@@ -29,6 +32,9 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    buildFeatures {
+        viewBinding = true
+    }
 }
 apply plugin: 'com.android.application'
 apply plugin: 'com.google.gms.google-services'
@@ -46,12 +52,30 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
-    //Firebase
-    implementation platform('com.google.firebase:firebase-bom:28.3.1')
-    implementation 'com.google.firebase:firebase-analytics-ktx'
-    //Firebase Auth
-    implementation 'com.google.firebase:firebase-auth-ktx'
-    //Firebase Real Time Database
-    implementation 'com.google.firebase:firebase-database-ktx'
+    //NavComponents
+    def nav_version = "2.3.5"
+    implementation("androidx.navigation:navigation-fragment-ktx:$nav_version")
+    implementation("androidx.navigation:navigation-ui-ktx:$nav_version")
+
+    //RoomDB
+    def room_version = "2.3.0"
+    implementation("androidx.room:room-runtime:$room_version")
+    implementation("androidx.room:room-ktx:$room_version")
+    kapt("androidx.room:room-compiler:$room_version")
+    annotationProcessor "androidx.room:room-compiler:$room_version"
+
+    //LifeCycle
+    implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.3.1"
+    implementation "androidx.lifecycle:lifecycle-common-java8:2.3.1"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1"
+
+    // Kotlin components
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.21"
+    api "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.1"
+    api "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.1"
+
+    //DataBinding
+    kapt "com.android.databinding:compiler:3.2.0-alpha10"
 
 }
