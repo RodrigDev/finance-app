@@ -1,4 +1,4 @@
-package com.rodrigo.financ.ui.fragment
+package com.rodrigo.financ.ui.fragment.balance
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
